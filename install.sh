@@ -10,7 +10,16 @@
 set -euo pipefail
 
 REPO="arshiyaazizi/xui-backup"
-TOK="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"
+# ⚠️ توکن نباید داخل فایل باشه — گیت‌هاب push حاوی رمز رو رد می‌کنه
+#    (secret scanning push protection). از متغیر محیطی میاد:
+TOK="${GHTOKEN:-}"
+if [ -z "$TOK" ]; then
+  echo "❌ توکن گیت‌هاب لازمه. اینطوری اجرا کن:"
+  echo
+  echo "   GHTOKEN=<توکنت> bash -c 'curl -fsSL https://raw.githubusercontent.com/$REPO/main/install.sh | bash'"
+  echo
+  exit 1
+fi
 IMG="ghcr.io/mhsanaei/3x-ui:latest"
 ACME_HOME="/root/.acme.sh"
 

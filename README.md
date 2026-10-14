@@ -1,12 +1,15 @@
 # 🛡️ بکاپ پنل‌های سنایی (x-ui)
 
-آخرین بکاپ: **20261013_100116** — روی سرور `ubuntu-Frankfurt-1gb`
+آخرین بکاپ: **20261014_063307** — روی سرور `ubuntu-Frankfurt-1gb`
 
 ## ⚡ بازگردانی با یک خط دستور
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/arshiyaazizi/xui-backup/main/install.sh | bash
+GHTOKEN=<توکن_گیت‌هاب_تو> bash -c 'curl -fsSL https://raw.githubusercontent.com/arshiyaazizi/xui-backup/main/install.sh | bash'
 ```
+
+> 🔑 توکن داخل اسکریپت نیست (گیت‌هاب push حاوی رمز رو رد می‌کنه) —
+> از متغیر محیطی `GHTOKEN` میاد. توکن باید دسترسی **Contents: Read** داشته باشه.
 
 ### این اسکریپت چیکار میکنه؟
 | مرحله | منبع |
@@ -27,7 +30,7 @@ curl -fsSL https://raw.githubusercontent.com/arshiyaazizi/xui-backup/main/instal
 | **همه‌ی گواهی‌ها** | `/root/cert/` + داده‌ی `/root/.acme.sh/` |
 
 ```
-created_at=20261013_100116
+created_at=20261014_063307
 hostname=ubuntu-Frankfurt-1gb
 public_ip=172.86.94.167
 local_xui_version=3.3.1
