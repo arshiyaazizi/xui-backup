@@ -1,6 +1,6 @@
 # 🛡️ بکاپ پنل‌های سنایی (x-ui)
 
-آخرین بکاپ: **20261014_063307** — روی سرور `ubuntu-Frankfurt-1gb`
+آخرین بکاپ: **20261015_000001** — روی سرور `ubuntu-Frankfurt-1gb`
 
 ## ⚡ بازگردانی با یک خط دستور
 
@@ -30,7 +30,7 @@ GHTOKEN=<توکن_گیت‌هاب_تو> bash -c 'curl -fsSL https://raw.githubus
 | **همه‌ی گواهی‌ها** | `/root/cert/` + داده‌ی `/root/.acme.sh/` |
 
 ```
-created_at=20261014_063307
+created_at=20261015_000001
 hostname=ubuntu-Frankfurt-1gb
 public_ip=172.86.94.167
 local_xui_version=3.3.1
