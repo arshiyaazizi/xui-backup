@@ -1,6 +1,6 @@
 # 🛡️ بکاپ پنل‌های سنایی (x-ui)
 
-آخرین بکاپ: **20261017_000002** — روی سرور `ubuntu-Frankfurt-1gb`
+آخرین بکاپ: **20261018_000001** — روی سرور `ubuntu-Frankfurt-1gb`
 
 ## ⚡ بازگردانی با یک خط دستور
 
@@ -30,7 +30,7 @@ GHTOKEN=<توکن_گیت‌هاب_تو> bash -c 'curl -fsSL https://raw.githubus
 | **همه‌ی گواهی‌ها** | `/root/cert/` + داده‌ی `/root/.acme.sh/` |
 
 ```
-created_at=20261017_000002
+created_at=20261018_000001
 hostname=ubuntu-Frankfurt-1gb
 public_ip=172.86.94.167
 local_xui_version=3.3.1
@@ -41,7 +41,7 @@ local_panel_basepath=/iXDXsPtDsiQyj2ftDY/
 docker_panel_port=2053
 inbounds_local=37050,443,3397,2083,8081,80
 inbounds_docker=8142
-clients_local=36
+clients_local=37
 clients_docker=43
 ```
 
